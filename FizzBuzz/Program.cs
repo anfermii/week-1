@@ -70,3 +70,99 @@ namespace FizzBuzzy
 
     }
 }
+//
+//
+Crust.cs
+namespace PizzaBox.Domain.Models
+{
+    public class Crust:Acomponent
+    {
+    public string Name { get; set;}
+    public decimal price { get; set ;}
+    }
+} 
+//
+//
+sizeof.cs
+
+
+namespace PizzaBox.Domain.Models
+{
+    public class size:Acomponent 
+    {
+    public string Name { get; set;}
+    public decimal price { get; set ;}
+    }
+//
+//
+Acomponet.cs
+
+
+   namespace PizzaBox.Domain.Models
+{
+    public Abstract class AComponent
+    {
+    public string Name { get; set;}
+    public decimal price { get; set ;}
+    } 
+
+//
+//
+APizzas
+using System.Collections.Generic;
+using System 
+
+//
+toppings
+namespace PizzaBox.Domain.Models
+{
+    public class size : AComponent 
+    {
+        public 
+    }
+}
+//
+//
+ MeatPizza.cs
+ using
+ namespace
+
+ {
+    public MeatPizza : APizza 
+ 
+ {
+     public MeatPizza()
+     {
+         Crust = new Crust();
+         Size = new Size();
+         Topping = new List <Topping >();
+
+     }
+     public MeatPizza(Crust crust, size size)
+     {
+         Crust = 
+
+     }
+ }
+ }
+ // another meatpizza
+ using 
+ using
+ namespace PizzaBox.Domain.Models
+ {
+     /// <summary>
+     /// summary 
+     /// </summary>
+     {
+      public class MeatPizza : APizza
+    {
+ protected override void AddCrust()
+ {
+     Crust = new Crust(); 
+ }
+ protected override 
+ //
+ // vegie
+
+ //
+//
